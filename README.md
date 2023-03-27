@@ -2,7 +2,7 @@
 Convenience composable functions to highlight bits of texts
 
 <div id="header" align="center">
-  <a href="https://jitpack.io/#ygorluizfrazao/composed-permissions"><img src="https://jitpack.io/v/ygorluizfrazao/easy-permissions.svg" alt="Version Name"/></a>
+  <a href="https://jitpack.io/#ygorluizfrazao/highlighted-text-compose"><img src="https://jitpack.io/v/ygorluizfrazao/highlighted-text-compose.svg" alt="Version Name"/></a>
   <img src="https://komarev.com/ghpvc/?username=ygorluizfrazao&style=flat-square&color=blue" alt=""/>
 </div>
 <div id="badges" align="center">
@@ -32,7 +32,9 @@ dependencyResolutionManagement {
 Then, in your *build.gradle*:
 
 ```groovy
-
+	dependencies {
+	        implementation 'com.github.ygorluizfrazao.highlighted-text-compose:highlighted_text_compose:VERSION_TAG'
+	}
 ```
 
 ## What it does?
@@ -96,7 +98,9 @@ HighlightedText(
 ## Clickable Text
 It is included a wraper to material3 ClickableText as well, as the submodule depedency:
 ```groovy
-
+	dependencies {
+	        implementation 'com.github.ygorluizfrazao.highlighted-text-compose:reusable_clickable_text:VARSION_NAME'
+	}
 ```
 Can produce results like this:
 
